@@ -3,10 +3,6 @@
 import React from 'react';
 
 export default function Contact() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submission is static for now. Data not sent.');
-  };
 
   return (
     <section id="contact" className="py-20 bg-gray-50">
@@ -148,7 +144,7 @@ export default function Contact() {
               <p className="text-gray-600 mb-6">
                 Fill out the form below and I'll get back to you as soon as possible.
               </p>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -197,7 +193,7 @@ export default function Contact() {
                   <textarea
                     name="message"
                     id="message"
-                    rows="4"
+                    rows={4}
                     required
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 bg-gray-100 text-gray-900"
                     placeholder=" Tell me about your project or what you'd like to discuss..."
