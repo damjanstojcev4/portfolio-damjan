@@ -5,6 +5,9 @@ import './global.css'
 export const metadata: Metadata = {
   title: 'Portfolio - Damjan Stojchev',
   description: 'Personal portfolio showcasing skills and projects',
+  icons: {
+    icon: "black-logo.png"
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -39,8 +39,8 @@ export default function Contact() {
                   </svg>
                   <div>
                     <span className="block font-semibold">Email</span>
-                    <a href="mailto:your.email@example.com" className="hover:underline">
-                      your.email@example.com
+                    <a href="mailto:damjan.stojcev4@gmail.com" className="hover:underline">
+                      damjan.stojcev4@gmail.com
                     </a>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ export default function Contact() {
                   </svg>
                   <div>
                     <span className="block font-semibold">Phone</span>
-                    <span>+1 (555) 123-4567</span>
+                    <span>+389 76 242 992</span>
                   </div>
                 </div>
                 <div className="flex items-center text-gray-600">
@@ -62,18 +62,18 @@ export default function Contact() {
                   </svg>
                   <div>
                     <span className="block font-semibold">Location</span>
-                    <span>Your City, Country</span>
+                    <span>Bitola, North Macedonia</span>
                   </div>
                 </div>
               </div>
               <div className="flex mt-6 space-x-4">
-                <a href="#" className="flex items-center text-gray-600 hover:text-cyan-600 transition-colors">
+                <a href="https://github.com/damjanstojcev4" target='_blank' className="flex items-center text-gray-600 hover:text-cyan-600 transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-github mr-2">
                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
                   </svg>
                   <span>GitHub</span>
                 </a>
-                <a href="#" className="flex items-center text-gray-600 hover:text-cyan-600 transition-colors">
+                <a href="https://www.linkedin.com/in/damjan-stojchev-27201b247/" target="_blank" className="flex items-center text-gray-600 hover:text-cyan-600 transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin mr-2">
                     <path d="M16 8a6 6 0 0 1 6 6v7H18v-5a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5h-4v-7a6 6 0 0 1 6-6z" />
                     <rect width="4" height="12" x="2" y="9" />
@@ -128,6 +128,13 @@ export default function Contact() {
                   </svg>
                   <span>Snaplogic integration solutions</span>
                 </li>
+                <li className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right text-cyan-600 mr-2">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                  <span>Consultations</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -153,7 +160,7 @@ export default function Contact() {
                       id="name"
                       required
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 bg-gray-100 text-gray-900"
-                      placeholder="Your full name"
+                      placeholder=" Your full name"
                     />
                   </div>
                   <div>
@@ -166,7 +173,7 @@ export default function Contact() {
                       id="email"
                       required
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 bg-gray-100 text-gray-900"
-                      placeholder="your.email@example.com"
+                      placeholder=" your.email@example.com"
                     />
                   </div>
                 </div>
@@ -180,7 +187,7 @@ export default function Contact() {
                     id="subject"
                     required
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 bg-gray-100 text-gray-900"
-                    placeholder="What's this about?"
+                    placeholder=" What's this about?"
                   />
                 </div>
                 <div>
@@ -193,13 +200,13 @@ export default function Contact() {
                     rows="4"
                     required
                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-cyan-500 focus:ring-cyan-500 bg-gray-100 text-gray-900"
-                    placeholder="Tell me about your project or what you'd like to discuss..."
+                    placeholder=" Tell me about your project or what you'd like to discuss..."
                   ></textarea>
                 </div>
                 <div className="flex justify-end">
                   <button
                     type="submit"
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-white font-semibold rounded-full shadow-lg transition-all duration-300 bg-gray-800 hover:bg-gray-900"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-white font-semibold rounded-full shadow-lg transition-all duration-300 bg-gray-700 hover:bg-gray-900"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-send-horizonal mr-2">
                       <path d="m3 3 3 9-3 9 19-9Z" />

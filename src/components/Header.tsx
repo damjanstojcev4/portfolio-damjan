@@ -25,24 +25,24 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 text-gray-800 font-medium text-xl">
-          <Link href="#home" className="hover:text-blue-600 transition-colors">
+          <Link href="#home" className="hover:text-cyan-500 transition-colors">
             Home
           </Link>
           <Link
             href="#skills"
-            className="hover:text-blue-600 transition-colors"
+            className="hover:text-cyan-500 transition-colors"
           >
             Skills
           </Link>
           <Link
             href="#projects"
-            className="hover:text-blue-600 transition-colors"
+            className="hover:text-cyan-500 transition-colors"
           >
             Projects
           </Link>
           <Link
             href="#contact"
-            className="hover:text-blue-600 transition-colors"
+            className="hover:text-cyan-500 transition-colors"
           >
             Contact
           </Link>
