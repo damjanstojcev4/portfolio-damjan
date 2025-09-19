@@ -29,8 +29,8 @@ const skills = [
       { name: "React", level: 95 },
       { name: "TypeScript", level: 95 },
       { name: "JavaScript", level: 95 },
-      { name: "HTML/CSS", level: 95 },
-      { name: "Tailwind CSS", level: 95 },
+      { name: "Next.js", level: 90 },
+      { name: "Tailwind CSS", level: 95 }
     ],
   },
   {
@@ -57,10 +57,10 @@ const skills = [
     ),
     list: [
       { name: "Spring Boot", level: 90 },
-      { name: "Java", level: 88 },
-      { name: "REST APIs", level: 92 },
+      { name: "Java", level: 90 },
+      { name: "REST APIs", level: 90 },
       { name: "Microservices", level: 85 },
-      { name: "Node.js", level: 80 },
+      { name: "Hibernate", level: 90 },
     ],
   },
   {
@@ -89,11 +89,11 @@ const skills = [
       </svg>
     ),
     list: [
-      { name: "Snaplogic", level: 88 },
-      { name: "GraphQL", level: 82 },
+      { name: "Snaplogic", level: 90 },
+      { name: "Meta", level: 82 },
       { name: "Webhook Processing", level: 85 },
       { name: "Data Transformation", level: 90 },
-      { name: "API Documentation", level: 87 },
+      { name: "API Documentation", level: 90 },
     ],
   },
   {
@@ -118,11 +118,11 @@ const skills = [
       </svg>
     ),
     list: [
-      { name: "PostgreSQL", level: 85 },
-      { name: "MongoDB", level: 80 },
+      { name: "PostgreSQL", level: 90 },
+      { name: "MySQL", level: 85 },
       { name: "Git/GitHub", level: 90 },
       { name: "Docker", level: 82 },
-      { name: "AWS", level: 78 },
+      { name: "Postman", level: 90 },
     ],
   },
 ];
