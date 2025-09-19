@@ -2,9 +2,6 @@
 
 import React from 'react';
 
-// This component is now a client component to allow for event handlers.
-// It is assumed Tailwind CSS is configured in your Next.js project.
-
 const projects = [
   {
     image: '/netural-logo.png',
@@ -193,7 +190,8 @@ export default function Project() {
         <div className="mt-16 text-center">
           <p className="text-lg text-gray-600 mb-6">Want to see more of my work?</p>
           <a
-            href="#"
+            href="https://github.com/damjanstojcev4?tab=repositories"
+            target='_blank'
             className="inline-flex items-center px-8 py-4 bg-white border border-gray-300 text-gray-800 font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           >
             <svg
