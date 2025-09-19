@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <Image
             src="/Matura Orginal - Copy.JPG"
-            alt="Developer working"
+            alt="Damjan Stojchev"
             width={400}
             height={400}
             className="rounded-2xl shadow-lg"
@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Tech stack pills */}
           <div className="flex flex-wrap justify-center md:justify-start gap-2 mb-6">
-            {['React', 'Spring Boot', 'SnapLogic', 'TypeScript', 'Java'].map((tech) => (
+            {['Spring Boot', 'Java', 'SnapLogic', 'React', 'Typescript'].map((tech) => (
               <span
                 key={tech}
                 className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
@@ -64,14 +64,11 @@ export default function Hero() {
 
           {/* Social links */}
           <div className="flex justify-center md:justify-start space-x-6 text-gray-600 text-xl">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/damjanstojcev4" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/damjan-stojchev-27201b247/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
-            </a>
-            <a href="mailto:you@example.com">
-              <FaEnvelope />
             </a>
           </div>
         </div>
