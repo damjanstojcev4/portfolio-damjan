@@ -24,6 +24,9 @@ export default function Hero() {
         {/* Right side - Text */}
         <div className="text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+            Damjan Stojchev
+          </h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-cyan-900 mb-4">
             Full Stack Developer
           </h1>
           <p className="text-lg text-gray-600 mb-6">
